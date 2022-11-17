@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "input",
+						"type": "string"
+					}
+				],
+				"name": "getHash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "hashes",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Lesson8Trees.sol": "Function8Trees"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Lesson8Trees.sol": {
+			"keccak256": "0x48febc3d9addf78b9c5f068cb91b3f4487659197648d7ca37855b65fc3e44036",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d8ccd0a97373f78f6c35b05137d3ebb697a6d3d32dcec7d854be700e58eaec17",
+				"dweb:/ipfs/QmQP8WZddywhoJEGn7opU4iRvA9T7DY5Qaro3vffbp2yRK"
+			]
+		}
+	},
+	"version": 1
+}
